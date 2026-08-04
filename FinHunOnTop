@@ -16382,18 +16382,18 @@ local runService = game:GetService("RunService")
 getgenv()._animCmd = getgenv()._animCmd or nil
 
 local animPresets = {
-    ["Meditate"] = "96579993895076", ["Orbit"] = "133811691098518", ["Orbit V2"] = "73208745607037",
-    ["Orbit V3"] = "137869087140582", ["Floss"] = "72174079036035", ["OJ"] = "110064349530772",
-    ["Kicking Feet"] = "131879764029003", ["Tweaking"] = "114353590132838", ["Crazy"] = "120819498172771",
-    ["Crazy V2"] = "105670906411750", ["Take the L"] = "112884830175040", ["Hype"] = "80055417516516",
-    ["Small / Hide"] = "91194251426204", ["Sea Lion"] = "117932365044349", ["Gangnam"] = "104142334418357",
-    ["NLE"] = "125783279336153", ["The Man"] = "88737074755910", ["Spider Shit"] = "74716792202343",
-    ["Low Cortisol"] = "125822752810863", ["Rampage"] = "120605439830304",
+    ["Meditate"] = "105433278564870", ["Tornado"] = "134029227396704", ["Orbit V2"] = "91729309021707",
+    ["Orbit V3"] = "137869087140582", ["Floss"] = "72174079036035", ["Invincible"] = "129722001008336",
+    ["Cute"] = "72682063430072", ["30 Meters"] = "80143938092872", ["Ashi Dance"] = "82253786433929",
+    ["Crazy"] = "114319678441531", ["Take the L"] = "112884830175040", ["Prince of Egypt"] = "139943365255070",
+    ["Invisible"] = "83522304666655" ["Sea Lion"] = "122745781095514", ["Gangnam"] = "80923445784018",
+    ["Trip Out"] = "101289807932349", ["The Man"] = "74853034062443", ["Spider Shit"] = "113184956127341",
+    ["Low Cortisol"] = "102305896916215", ["Zombie Run"] = "122648944421682",
 }
 local animPresetNames = {
-    "Meditate", "Orbit", "Orbit V2", "Orbit V3", "Floss", "OJ", "Kicking Feet", "Tweaking", "Crazy",
-    "Crazy V2", "Take the L", "Hype", "Small / Hide", "Sea Lion", "Gangnam", "NLE", "The Man",
-    "Spider Shit", "Low Cortisol", "Rampage",
+    "Meditate", "Tornado", "Orbit V2", "Orbit V3", "Floss", "Invincible", "Cute", "30 Meters", "Ashi Dance",
+    "Crazy", "Take the L", "Prince of Egypt", "Invisible", "Sea Lion", "Gangnam", "Trip Out", "The Man",
+    "Spider Shit", "Low Cortisol", "Zombie Run",
 }
 
 animPlayerTab:AddToggle("AnimEnabled", {
